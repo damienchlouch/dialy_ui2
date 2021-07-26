@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    background-image: url("img/same_flou.jpg");
+    background-size: cover;
+}
+
+.container{
+    margin-top: 200px;
+}
+
+.whole_card{
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.329);
+    border-radius: 30px 30px 30px 30px;
+    overflow: hidden;
+}
+.container .whole_card{
+    display: flex;
+    margin: auto;
+    width: 916px;
+
+}
+
+.whole_card .partleft{
+    height: 500px;
+    width: 352px;
+    background-color: aqua;
+    background-image: url(img/hills-2836301_1280.jpg);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    border-radius: 30px 0px 0px 30px;
+}
+
+.whole_card .partright{
+    height: 500px;
+    width: 564px;
+    background-color: rgb(230, 223, 185);
+    border-radius: 0px 30px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.txt_field_date{
+    display: flex;
+    margin-left: 30px;
+    justify-content: flex-start;
+}
+
+.txt_field_date input:nth-child(2){
+    width: 80px;
+}
+
+.btnx2{
+    display: flex;
+    width: 100%;
+    height: 100px;
+
+}
+
+.btn{
+    width:50%;
+    background-color: #11ffee00;
+    border: solid 0;
+    bottom: 0px;
+}
+
+.btn:hover{
+    background-color: rgba(131, 58, 29, 0.5)
+}
+
+.btn:nth-child(1){
+    border-radius: 0 30px 0 0;
+}
+
+.btn:nth-child(2){
+    border-radius: 30px 0 0 0;
+}
+
+label{
+    font-size: 9pt;
+}
+
+label p:nth-child(1){
+    margin-left: 30px;
+}
+
+.field_txt{
+    height: 26px;
+    border: solid 0;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+.field_txt_1{
+    width: 50%;
+    margin-left: 30px;
+    border: solid 0;
+    height: 26px;
+    border-radius: 30px;
+}
+
+.txt_field_date input{
+    border: solid 0;
+    border-radius: 30px;
+
+}
+
+.box_img{
+    margin-left: 20px;
+}
+
+.nmb_ccv{
+    display: flex;
+    width: 66%;
+    justify-content: space-between;
+}
+
+.champs_CB input:nth-child(1){
+    width: 50%;
+}
+
+.champs_CB input:nth-child(2){
+    width: 80px;
+}
+
+.champs_CB {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.all_circles{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 5px;
+ 
+}
+
+.cercle {
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    background: rgb(228, 228, 228);
+    margin: 5px;
+    opacity: 0.5;
+}
+
+.all_circles .cercle:nth-child(3){
+    opacity: 1;
+}
